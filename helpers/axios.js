@@ -1,11 +1,11 @@
 import axios from 'axios';
 
 export const instance = axios.create({
-  baseURL: 'http://localhost:5000/api/v1',
+  baseURL: 'https://money-mind.onrender.com/api/v1',
 });
 
 export const axiosPrivate = axios.create({
-  baseURL: 'http://localhost:5000/api/v1',
+  baseURL: 'https://money-mind.onrender.comapi/v1',
   withCredentials: true,
 });
 
